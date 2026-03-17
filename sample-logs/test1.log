@@ -1,0 +1,5 @@
+Mon Mar 15 2026 08:12:34 GMT user1@company.com 192.168.1.105 GET http://malware-downloads.ru/payload.exe 200 1024 ZscalerService BLOCKED
+Mon Mar 15 2026 08:13:01 GMT user2@company.com 192.168.1.110 POST https://legitimate-site.com/api 200 512 ZscalerService ALLOWED
+Mon Mar 15 2026 08:14:22 GMT user1@company.com 192.168.1.105 GET http://c2-server.xyz/beacon 200 256 ZscalerService ALLOWED
+Mon Mar 15 2026 08:15:44 GMT user3@company.com 192.168.1.120 GET https://dropbox.com/upload?file=passwords.xlsx 200 4096 ZscalerService ALLOWED
+Mon Mar 15 2026 08:16:55 GMT user1@company.com 192.168.1.105 GET http://phishing-site.tk/login 200 2048 ZscalerService BLOCKED

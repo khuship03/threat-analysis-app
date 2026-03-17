@@ -1,0 +1,6 @@
+Mon Mar 16 2026 11:00:01 GMT user9@company.com 192.168.1.190 GET https://google.com 200 512 ZscalerService ALLOWED
+Mon Mar 16 2026 11:01:10 GMT user9@company.com 192.168.1.190 GET https://stackoverflow.com/questions/123 200 2048 ZscalerService ALLOWED
+Mon Mar 16 2026 11:02:20 GMT user10@company.com 192.168.1.200 GET https://github.com/microsoft/vscode 200 4096 ZscalerService ALLOWED
+Mon Mar 16 2026 11:03:30 GMT user10@company.com 192.168.1.200 GET https://docs.microsoft.com/en-us 200 1024 ZscalerService ALLOWED
+Mon Mar 16 2026 11:04:40 GMT user9@company.com 192.168.1.190 GET https://linkedin.com/in/profile 200 512 ZscalerService ALLOWED
+Mon Mar 16 2026 11:05:50 GMT user10@company.com 192.168.1.200 GET https://npmjs.com/package/react 200 256 ZscalerService ALLOWED

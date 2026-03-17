@@ -1,0 +1,5 @@
+Mon Mar 16 2026 09:00:01 GMT user4@company.com 192.168.1.130 GET https://pastebin.com/raw/xK92mNpQ 200 4521 ZscalerService ALLOWED
+Mon Mar 16 2026 09:01:15 GMT user4@company.com 192.168.1.130 POST https://transfer.sh/upload 200 15360 ZscalerService ALLOWED
+Mon Mar 16 2026 09:02:44 GMT user5@company.com 192.168.1.145 GET http://suspicious-domain.xyz/config.php 200 1024 ZscalerService ALLOWED
+Mon Mar 16 2026 09:03:22 GMT user4@company.com 192.168.1.130 GET https://raw.githubusercontent.com/unknown/tools/main/hack.py 200 8192 ZscalerService ALLOWED
+Mon Mar 16 2026 09:04:10 GMT user5@company.com 192.168.1.145 POST http://suspicious-domain.xyz/exfil.php 200 20480 ZscalerService ALLOWED

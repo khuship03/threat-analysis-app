@@ -1,0 +1,6 @@
+Mon Mar 16 2026 10:00:01 GMT user6@company.com 192.168.1.160 GET https://facebook.com 200 512 ZscalerService ALLOWED
+Mon Mar 16 2026 10:01:30 GMT user6@company.com 192.168.1.160 GET https://youtube.com/watch?v=abc123 200 1024 ZscalerService ALLOWED
+Mon Mar 16 2026 10:02:45 GMT user7@company.com 192.168.1.170 GET https://torrentz2.eu/search?q=software 200 2048 ZscalerService ALLOWED
+Mon Mar 16 2026 10:03:12 GMT user7@company.com 192.168.1.170 GET https://thepiratebay.org/torrents 200 3072 ZscalerService BLOCKED
+Mon Mar 16 2026 10:04:55 GMT user6@company.com 192.168.1.160 POST https://wetransfer.com/upload 200 51200 ZscalerService ALLOWED
+Mon Mar 16 2026 10:05:33 GMT user8@company.com 192.168.1.180 GET https://mail.google.com 200 512 ZscalerService ALLOWED

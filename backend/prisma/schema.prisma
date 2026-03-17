@@ -1,0 +1,62 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["driverAdapters"]
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id           String    @id @default(cuid())
+  email        String    @unique
+  passwordHash String
+  name         String?
+  role         Role      @default(ANALYST)
+  createdAt    DateTime  @default(now())
+  logs         LogFile[]
+}
+
+model LogFile {
+  id           String    @id @default(cuid())
+  filename     String
+  originalName String
+  size         Int
+  mimeType     String
+  storagePath  String
+  status       LogStatus @default(PENDING)
+  uploadedAt   DateTime  @default(now())
+  userId       String
+  user         User      @relation(fields: [userId], references: [id])
+  analysis     Analysis?
+}
+
+model Analysis {
+  id          String      @id @default(cuid())
+  logFileId   String      @unique
+  logFile     LogFile     @relation(fields: [logFileId], references: [id])
+  threatLevel ThreatLevel
+  summary     String
+  threats     Json
+  rawResponse String
+  processedAt DateTime    @default(now())
+}
+
+enum Role {
+  ADMIN
+  ANALYST
+}
+
+enum LogStatus {
+  PENDING
+  PROCESSING
+  COMPLETED
+  FAILED
+}
+
+enum ThreatLevel {
+  LOW
+  MEDIUM
+  HIGH
+  CRITICAL
+}

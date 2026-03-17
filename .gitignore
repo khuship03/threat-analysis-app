@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env*.local
+
+# Backend uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Build outputs
+dist/
+.next/
+
+# Logs
+*.log
+
+# Allow sample logs
+!sample-logs/
+!sample-logs/*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Prisma
+prisma/migrations/dev.db
+
+# TypeScript
+*.tsbuildinfo
