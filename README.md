@@ -4,6 +4,19 @@ An AI-powered log file threat detection and analysis platform. Upload any system
  
 ---
 
+
+## Live Demo Link
+
+https://threat-analysis-6s1nnigkm-ks-projects-d782a4b0.vercel.app
+
+## Demo Account
+
+Email: demo1@gmail.com
+
+Password: Demo12345*
+
+---
+
 ## Overview
  
 The Threat Analysis App allows security analysts to:
